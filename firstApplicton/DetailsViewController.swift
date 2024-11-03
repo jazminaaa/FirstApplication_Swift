@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import CoreData
+
 
 class DetailsViewController:UIViewController {
     
@@ -32,7 +34,27 @@ class DetailsViewController:UIViewController {
         priceUI.text = price
         imageUI.image = UIImage( named: name!)
         
-    }
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        let persistentContainer = appDelegate.persistentContainer
+        
+        let managedContext = persistentContainer.viewContext
+        
+        let entityDescription = NSEntityDescription.entity(forEntityName: "Favorite", in: managedContext)
+        
+        let object = NSManagedObject(entity:entityDescription! ,insertInto: managedContext)
+        
+        object.setValue(name!, forKey: "productname")
+        do {
+            
+            try managedContext.save()
+            print ("insert good")}
+        catch{
+            print ("insert failed")
+        }
+        }
+        
+    
     
 
     /*

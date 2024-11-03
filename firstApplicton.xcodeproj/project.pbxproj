@@ -17,6 +17,7 @@
 		7A3DCF982C997BF4008C383C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3DCF972C997BF4008C383C /* LoginViewController.swift */; };
 		7AD4CA2B2CA2CC4C002A3B0A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4CA2A2CA2CC4C002A3B0A /* HomeViewController.swift */; };
 		7AD4CA2D2CA2CC58002A3B0A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD4CA2C2CA2CC58002A3B0A /* DetailsViewController.swift */; };
+		CA0448832CB53D8700D2BE07 /* FavoritListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0448822CB53D8700D2BE07 /* FavoritListViewController.swift */; };
 		CA34F7432CAC0BBF00773C90 /* testUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34F7422CAC0BBF00773C90 /* testUI.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		7A3DCF972C997BF4008C383C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7AD4CA2A2CA2CC4C002A3B0A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7AD4CA2C2CA2CC58002A3B0A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CA0448822CB53D8700D2BE07 /* FavoritListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritListViewController.swift; sourceTree = "<group>"; };
 		CA34F7422CAC0BBF00773C90 /* testUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				CA34F7422CAC0BBF00773C90 /* testUI.swift */,
 				7AD4CA2A2CA2CC4C002A3B0A /* HomeViewController.swift */,
 				7AD4CA2C2CA2CC58002A3B0A /* DetailsViewController.swift */,
+				CA0448822CB53D8700D2BE07 /* FavoritListViewController.swift */,
 			);
 			path = firstApplicton;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				7A3DCF852C997759008C383C /* ViewController.swift in Sources */,
 				7A3DCF8B2C997759008C383C /* firstApplicton.xcdatamodeld in Sources */,
+				CA0448832CB53D8700D2BE07 /* FavoritListViewController.swift in Sources */,
 				7A3DCF812C997759008C383C /* AppDelegate.swift in Sources */,
 				7A3DCF982C997BF4008C383C /* LoginViewController.swift in Sources */,
 				7AD4CA2D2CA2CC58002A3B0A /* DetailsViewController.swift in Sources */,

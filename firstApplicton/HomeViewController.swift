@@ -19,8 +19,8 @@ class HomeViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "mCell")
-        var ContentTable = cell?.contentView
+        var cell = tableView.dequeueReusableCell(withIdentifier: "Mcell")
+        var contentTable = cell?.contentView
         
         
         let itemLabel = cell!.contentView.viewWithTag(2)     as! UILabel
